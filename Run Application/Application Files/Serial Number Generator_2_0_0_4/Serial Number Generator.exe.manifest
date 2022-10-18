@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Serial Number Generator.exe" version="2.0.0.4" publicKeyToken="13c5a10954ed3597" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\melange_logo_kite.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Serial Number Generator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Serial Number Generator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial Number Generator.exe" size="330736">
+      <assemblyIdentity name="Serial Number Generator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K+iX0x1tQJTaikZF6xkvvHYOl1rx/XuOeLQnkuqf2BQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Resources\clear (1).png" size="623">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0N+2dh6yrnZH5h+cCEYk5VZ1hYp3uWOTivXaamlLqDQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\clear.png" size="773">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zkq6NemGjSEdgg2NcZKGufxufLXdtOlgYXNxIhiiHwE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\cpu.png" size="816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J02/TQ+JIdEq+a7cFlGWZ32DZTRfwUhU63aVRZR3HLU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\eraser.png" size="755">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LpgwIfTNvfSn/jJH45TeO60tBvh6uWozXebPaUXbex8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\floppy-disk (1).png" size="550">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DGEsxoLPaYJEKuIaEri60bRBqcEI+uOFTROleqR/ztc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\floppy-disk.png" size="485">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bXA4h3g3HWcVhNZ/PqCs0b9A+zRFNzuYlFfj3vWlgNY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\follow (1).png" size="826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SX0F64qDWqmm3WRK2k9ztjaV8iYErDp9oCa02NWvdkU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\follow.png" size="1307">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x9rtNFCfsN0WiCH+3kM62H16zwGtw17F5TYwM+Tff+s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\melange_logo.png" size="43980">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tMOCFY+88IcUlX6a2r8xzw71jE/ZAslJubfq0cQErSQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\melange_logo_kite.ico" size="114941">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2RYv9/36Tc9Gvmt4dciKxiwEdsxPwH1AGuWTSxdVoao=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\motherboard (1).png" size="628">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d0TUn8DgzkFb2TR3yEOWWzZNkkmktLGtXCyuiPb3qpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\motherboard (2).png" size="786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JWuCXJnVZee3d3LaZQv3ZEYvXmISFq6WVcsrilMYq3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\motherboard (3).png" size="739">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AH19V3jjgylMoXgfCgCcV+dkPe/YXK7i+BrbnrrtFPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\motherboard.png" size="1325">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HBZFr6LFsGsKyMepialXPPCmIB5f0fNkKZeBDl/5D7s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\multiply (1).png" size="324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mkPCNknMXGqI6rt3B/CMlylK7fgDKlO9d38mW0vDyEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\multiply.png" size="324">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mkPCNknMXGqI6rt3B/CMlylK7fgDKlO9d38mW0vDyEQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\pcb-board (2).png" size="1535">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+P5/cmp/hO6CES7YofA7DvaKf1I74Qq+jyDxr+6gxEI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\pcb-board (3).png" size="853">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zlPQN8QsM8XNunyl1lS6WryBUqq8kYWArlCUX2FgGK0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\plus.png" size="3993">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nYQykB9Xojr1xMPHTa4+IJPtCw/ZeURWV7ib43cg8Xk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\processor (3).png" size="2644">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BUktjKrttb1JBeUIt/5K1E+Jno2FSKXe9aQRVGXj2wg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\processor (4).png" size="1036">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8cDFLCtYW2a95apeWxcWuMjLjURXWSQHdmhN7KFOqYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\processor.png" size="599">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w2yhzAARxJrd4xJmzk+1ZLnJ3PHok+ArIXvo2A3sn3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\refresh-button.png" size="588">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w0RnnS04iKP+g7vdDTd0EBYpgyop8AxFy+VzDp6l27c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\settings.png" size="836">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IqaasXvTq++ucufQleAm8ZX67B882eR61cfoZyr4y5g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\shuffle.png" size="766">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nYOwRrNjYat4HT5uG2ewMO0cwFikIBonhljU1DuRbfw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\technical-support (1).png" size="778">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DBiMtnd84Es1LsTYNLDTkfpvGpx6jmgCAGmGSAmNplo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\technical-support.png" size="1300">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bydw/Pc7ehEPSw+vCo4VNVmoj6dOrs9JRXdSursarfU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Serial Number Generator.exe.config" size="3400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vp47lQ5NZiQTYU73Pu4+oz2E94K6Zkn0KKtIKpcLO3E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-E96H51T\HARSHITH" issuerKeyHash="287d0a94ab3047be0bc2a314851d55d0ce02acac" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NXcOxmk49TITx7+pQXzclCIX3i1EeJXQ0FcPy9m2bdM=</DigestValue></Reference></SignedInfo><SignatureValue>iSfst1lrjJhSC2LEHLNfreE5+wXh3jYKPdXWgYFqL0N4bacWWaRAhidDG4WiJ/gt1iTlxqy8RNk6Fs43iSIUIQipu1YJ40hziaZOE3mOYO2W1SOoZU9FeCQhoULyf9dlD9jlpu8Q0uLsloBg/5UtTYMneOspHpbusmh358vpCyg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vgWb3D2aZsGPLutOP1dp/fFRtFlYBSZC/Z2bWkok5lfNwE5tnZbYYcqFRvyALDV5RWz1CJyscwzHO7xYHkLy7fERpCxe1yYY5N1agdcWatTIZDaV/r0y+vlPdKJPm/MC/2cCNvjDWPA6s4WaNc18IXYy21szlLjfH6NCgv6vgz0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d36db6d9cb0f57d0d09578442dde172294dc7c41a9bfc71332f53869c60e7735" Description="" Url=""><as:assemblyIdentity name="Serial Number Generator.exe" version="2.0.0.4" publicKeyToken="13c5a10954ed3597" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E96H51T\HARSHITH</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pb3XQrzmaNTZQ1lC31A6QDw3LYoq+m0xy4+kWbj9dYI=</DigestValue></Reference></SignedInfo><SignatureValue>VN6ITYeNW8PflSmXoYruTuYmLRnwN2NplW3ASSZ8pxZ9c8vMeWpOSMEUOQLeW/LExLRCXWdoHpKOb49hdRGBxjJPfTgslnCCTPc1TopvhrLSynqqG28mDP2XfJbIKHtaN7jSX45jIZ3ukx2sCohHUfVsp7uPVRR23qEmpg1HgQg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vgWb3D2aZsGPLutOP1dp/fFRtFlYBSZC/Z2bWkok5lfNwE5tnZbYYcqFRvyALDV5RWz1CJyscwzHO7xYHkLy7fERpCxe1yYY5N1agdcWatTIZDaV/r0y+vlPdKJPm/MC/2cCNvjDWPA6s4WaNc18IXYy21szlLjfH6NCgv6vgz0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQGxCrN0PF0oZIntJEFieBZjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEUAOQA2AEgANQAxAFQAXABIAEEAUgBTAEgASQBUAEgwHhcNMjIxMDA2MDU0NzEzWhcNMjMxMDA2MTE0NzEzWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEUAOQA2AEgANQAxAFQAXABIAEEAUgBTAEgASQBUAEgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL4Fm9w9mmbBjy7rTj9Xaf3xUbRZWAUmQv2dm1pKJOZXzcBObZ2W2GHKhUb8gCw1eUVs9QicrHMMxzu8WB5C8u3xEaQsXtcmGOTdWoHXFmrUyGQ2lf69Mvr5T3SiT5vzAv9nAjb4w1jwOrOFmjXNfCF2MttbM5S43x+jQoL+r4M9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAR4hwfIrFhr6c7UA2a1tsJl8BKC148LPoODWKwRJPHMQ+Td5Eaj1xh/Hg819acHph1gHwcibCt9NBc7WBQqYybLhzwBSbuxaB0S+Yj3gB8dC4QocugGu8ke263Fa3dAbrN8CWDCweyE1QbYK9to7vbEhIVe6i9K/6+vKmBdrIh2Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
