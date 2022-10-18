@@ -114,7 +114,7 @@ namespace BLE
             this.comboBox1.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.IntegralHeight = false;
-            this.comboBox1.Location = new System.Drawing.Point(151, 230);
+            this.comboBox1.Location = new System.Drawing.Point(158, 175);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 25);
             this.comboBox1.TabIndex = 0;
@@ -132,7 +132,7 @@ namespace BLE
             this.comboBox2.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.IntegralHeight = false;
-            this.comboBox2.Location = new System.Drawing.Point(151, 275);
+            this.comboBox2.Location = new System.Drawing.Point(158, 220);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 25);
             this.comboBox2.TabIndex = 1;
@@ -143,7 +143,7 @@ namespace BLE
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 71);
+            this.label1.Location = new System.Drawing.Point(114, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(279, 37);
             this.label1.TabIndex = 2;
@@ -154,7 +154,7 @@ namespace BLE
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 227);
+            this.label2.Location = new System.Drawing.Point(27, 172);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(125, 29);
             this.label2.TabIndex = 3;
@@ -165,7 +165,7 @@ namespace BLE
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 273);
+            this.label3.Location = new System.Drawing.Point(27, 218);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 27);
             this.label3.TabIndex = 4;
@@ -176,7 +176,7 @@ namespace BLE
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(20, 315);
+            this.label4.Location = new System.Drawing.Point(27, 260);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(119, 24);
             this.label4.TabIndex = 5;
@@ -187,7 +187,7 @@ namespace BLE
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.textBox1.Location = new System.Drawing.Point(151, 316);
+            this.textBox1.Location = new System.Drawing.Point(158, 261);
             this.textBox1.MaxLength = 32456;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -208,7 +208,7 @@ namespace BLE
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(23, 355);
+            this.button1.Location = new System.Drawing.Point(30, 300);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 28);
             this.button1.TabIndex = 7;
@@ -228,7 +228,7 @@ namespace BLE
             this.button2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(176, 355);
+            this.button2.Location = new System.Drawing.Point(183, 300);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(96, 28);
             this.button2.TabIndex = 8;
@@ -240,7 +240,7 @@ namespace BLE
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(429, 371);
+            this.dataGridView1.Location = new System.Drawing.Point(436, 316);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(22, 12);
             this.dataGridView1.TabIndex = 9;
@@ -248,7 +248,7 @@ namespace BLE
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(139, 108);
+            this.label5.Location = new System.Drawing.Point(146, 53);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 25);
             this.label5.TabIndex = 10;
@@ -259,7 +259,7 @@ namespace BLE
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Microsoft JhengHei UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 108);
+            this.label6.Location = new System.Drawing.Point(27, 53);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 25);
             this.label6.TabIndex = 11;
@@ -274,7 +274,7 @@ namespace BLE
             this.button3.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(278, 230);
+            this.button3.Location = new System.Drawing.Point(285, 175);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(57, 25);
             this.button3.TabIndex = 12;
@@ -292,7 +292,7 @@ namespace BLE
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.groupBox1.Location = new System.Drawing.Point(337, 201);
+            this.groupBox1.Location = new System.Drawing.Point(344, 146);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(155, 82);
@@ -362,7 +362,7 @@ namespace BLE
             this.button6.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(278, 275);
+            this.button6.Location = new System.Drawing.Point(285, 220);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(57, 25);
             this.button6.TabIndex = 14;
@@ -378,7 +378,7 @@ namespace BLE
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button8);
             this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Location = new System.Drawing.Point(338, 249);
+            this.groupBox2.Location = new System.Drawing.Point(345, 194);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(154, 82);
@@ -451,7 +451,7 @@ namespace BLE
             this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(100, 355);
+            this.button9.Location = new System.Drawing.Point(107, 300);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(66, 28);
             this.button9.TabIndex = 16;
@@ -469,7 +469,7 @@ namespace BLE
             this.button10.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(362, 371);
+            this.button10.Location = new System.Drawing.Point(369, 316);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(27, 10);
             this.button10.TabIndex = 17;
@@ -484,7 +484,7 @@ namespace BLE
             this.groupBox3.Controls.Add(this.button11);
             this.groupBox3.Controls.Add(this.button12);
             this.groupBox3.Controls.Add(this.textBox4);
-            this.groupBox3.Location = new System.Drawing.Point(338, 202);
+            this.groupBox3.Location = new System.Drawing.Point(345, 147);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(119, 81);
@@ -540,7 +540,7 @@ namespace BLE
             this.groupBox4.Controls.Add(this.button14);
             this.groupBox4.Controls.Add(this.textBox5);
             this.groupBox4.Controls.Add(this.label11);
-            this.groupBox4.Location = new System.Drawing.Point(335, 247);
+            this.groupBox4.Location = new System.Drawing.Point(342, 192);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(119, 81);
@@ -593,7 +593,7 @@ namespace BLE
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(20, 145);
+            this.label8.Location = new System.Drawing.Point(27, 90);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(125, 29);
             this.label8.TabIndex = 21;
@@ -603,7 +603,7 @@ namespace BLE
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(20, 187);
+            this.label12.Location = new System.Drawing.Point(27, 132);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(125, 29);
             this.label12.TabIndex = 22;
@@ -617,7 +617,7 @@ namespace BLE
             this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(151, 150);
+            this.comboBox3.Location = new System.Drawing.Point(158, 95);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 25);
             this.comboBox3.TabIndex = 23;
@@ -631,7 +631,7 @@ namespace BLE
             this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBox4.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(151, 188);
+            this.comboBox4.Location = new System.Drawing.Point(158, 133);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 25);
             this.comboBox4.TabIndex = 24;
@@ -646,7 +646,7 @@ namespace BLE
             this.button17.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button17.Image = ((System.Drawing.Image)(resources.GetObject("button17.Image")));
             this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(278, 149);
+            this.button17.Location = new System.Drawing.Point(285, 94);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(57, 25);
             this.button17.TabIndex = 25;
@@ -663,7 +663,7 @@ namespace BLE
             this.button18.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
             this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(278, 187);
+            this.button18.Location = new System.Drawing.Point(285, 132);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(57, 25);
             this.button18.TabIndex = 26;
@@ -679,7 +679,7 @@ namespace BLE
             this.groupBox5.Controls.Add(this.button20);
             this.groupBox5.Controls.Add(this.button21);
             this.groupBox5.Controls.Add(this.textBox6);
-            this.groupBox5.Location = new System.Drawing.Point(339, 123);
+            this.groupBox5.Location = new System.Drawing.Point(346, 68);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(154, 82);
@@ -748,7 +748,7 @@ namespace BLE
             this.groupBox6.Controls.Add(this.button23);
             this.groupBox6.Controls.Add(this.button24);
             this.groupBox6.Controls.Add(this.textBox7);
-            this.groupBox6.Location = new System.Drawing.Point(338, 165);
+            this.groupBox6.Location = new System.Drawing.Point(345, 110);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(0);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(154, 82);
@@ -817,7 +817,7 @@ namespace BLE
             this.comboBox5.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.IntegralHeight = false;
-            this.comboBox5.Location = new System.Drawing.Point(474, 365);
+            this.comboBox5.Location = new System.Drawing.Point(481, 310);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(22, 25);
             this.comboBox5.TabIndex = 29;
@@ -826,7 +826,7 @@ namespace BLE
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(371, 393);
+            this.listView1.Location = new System.Drawing.Point(378, 338);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(24, 10);
             this.listView1.TabIndex = 30;
@@ -836,11 +836,10 @@ namespace BLE
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(528, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(39, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
@@ -853,7 +852,7 @@ namespace BLE
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(20, 393);
+            this.label15.Location = new System.Drawing.Point(27, 338);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(133, 29);
             this.label15.TabIndex = 32;
@@ -865,7 +864,7 @@ namespace BLE
             this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox8.Font = new System.Drawing.Font("Microsoft JhengHei", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.textBox8.Location = new System.Drawing.Point(151, 396);
+            this.textBox8.Location = new System.Drawing.Point(158, 341);
             this.textBox8.MaxLength = 32456;
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
@@ -887,7 +886,7 @@ namespace BLE
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.Location = new System.Drawing.Point(-2, 227);
+            this.button27.Location = new System.Drawing.Point(5, 172);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(22, 22);
             this.button27.TabIndex = 36;
@@ -903,7 +902,7 @@ namespace BLE
             this.save.Font = new System.Drawing.Font("Microsoft JhengHei", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save.Image = ((System.Drawing.Image)(resources.GetObject("save.Image")));
             this.save.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.save.Location = new System.Drawing.Point(278, 395);
+            this.save.Location = new System.Drawing.Point(285, 340);
             this.save.Name = "save";
             this.save.Size = new System.Drawing.Size(64, 25);
             this.save.TabIndex = 37;
@@ -917,7 +916,7 @@ namespace BLE
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(507, 451);
+            this.ClientSize = new System.Drawing.Size(507, 379);
             this.Controls.Add(this.save);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.textBox8);
